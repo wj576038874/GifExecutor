@@ -7,8 +7,6 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Looper;
-import android.os.SystemClock;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -21,7 +19,7 @@ import java.lang.ref.WeakReference;
 
 
 /**
- * 本地分支demobranch
+ * develop分支和master一样是一直存在的，名称也是不会改动的。各个功能分支和hotfix的代码将合并到这里。与内测版本保持一致
  */
 public class MainActivity extends AppCompatActivity {
 
