@@ -21,7 +21,7 @@ import java.lang.ref.WeakReference;
 
 
 /**
- * 本地分支demobranch
+ * 该分支是一直存在的，名称也不会改动，并且不可在master分支中直接做修改。需要从其他分支合并来。与线上版本保持绝对一致
  */
 public class MainActivity extends AppCompatActivity {
 
