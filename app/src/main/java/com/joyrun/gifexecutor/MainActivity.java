@@ -19,6 +19,8 @@ import java.lang.ref.WeakReference;
 
 
 /**
+ * develop分支和master一样是一直存在的，名称也是不会改动的。各个功能分支和hotfix的代码将合并到这里。与内测版本保持一致
+ *
  * 5.3.0话题改动
  */
 public class MainActivity extends AppCompatActivity {
