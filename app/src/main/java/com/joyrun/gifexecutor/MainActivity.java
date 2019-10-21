@@ -19,6 +19,10 @@ import com.joyrun.gifexecutor.gif.GifExtractor;
 import java.io.File;
 import java.lang.ref.WeakReference;
 
+
+/**
+ * 本地分支demobranch
+ */
 public class MainActivity extends AppCompatActivity {
 
 
@@ -227,6 +231,9 @@ public class MainActivity extends AppCompatActivity {
                     10,
                     outFrameFileDir);
             FFmpegExecutor fFmpegExecutor = new FFmpegExecutor();
+
+
+
             return fFmpegExecutor.executeFFmpegCommond(command);
         }
 
